@@ -1,6 +1,6 @@
 {
   "name": "eyp-alternatives",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "eyp",
   "summary": "update alternatives module",
   "license": "Apache-2.0",
@@ -35,6 +35,14 @@
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [ "14.04", "16.04", "18.04" ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [ "8", "9", "10" ]
+    },
+    {
+      "operatingsystem": "Raspbian",
+      "operatingsystemrelease": [ "10" ]
     }
   ],
   "requirements": [
